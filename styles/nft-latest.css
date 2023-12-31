@@ -1,0 +1,88 @@
+.latest-drops{
+    background-color: white;
+    border: 1px solid gray;
+    margin: 0px 30px 50px 30px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.latest-drops-heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 50px 30px 50px;
+    padding: 5px 0px;
+    border-bottom: 1px solid lightgray;
+}
+.item-block{
+    margin: 0px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 13px;
+    row-gap: 8px;
+}
+
+.item-tabs{
+    border-radius: 16px;
+    transition: 0.15s;
+    border: 1px solid lightgray;
+    padding: 10px;
+    box-sizing: content-box;
+    cursor:pointer;
+    box-sizing: border-box;
+}
+.item-tabs:hover{
+    transform: translateY(-3px);
+    box-shadow: rgba(22, 22, 26, 0.08) 0px 0px 0px 2px inset;
+}
+.item-tabs img{
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+.sub-info{
+    display: grid;
+    grid-template-columns: 1fr 50px 50px;
+}
+.sub-info button{
+    padding: 5px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    height: 40px;
+    width:43px;
+    transition: 0.15s;
+}
+.sub-info button:active{
+    background-color: rgb(174, 174, 174);
+    transform: translateX(1px);
+    transform: translatey(1px);
+}
+.author{
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 11px;
+    color: rgb(122, 121, 121);
+}
+.item-name{
+    padding-left: 10px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.status-price{
+    background-color:rgb(238, 238, 238);
+    padding:8px 12px;
+    border-radius: 10px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.sub-status-price{
+    flex:1;
+    color: black;
+}
+.status,.price{
+    margin-bottom: 5px;
+    color: rgb(79, 79, 79);
+}

@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(255,246,238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-box{
+    background-color: white;
+    position: fixed;
+    top:60px;
+    bottom:60px;
+    left:100px;
+    right:100px;
+    border-radius: 30px;
+    border: 7px solid purple;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.welcome{padding: 100px 0px 0px 100px;}
+.welcome img{height:90px;}
+
+.head{
+    font-size: 33px;
+    font-weight: bold;
+    color:blueviolet;
+    margin-top:70px;
+    margin-bottom: 13px;
+}
+.sub{
+    color:blueviolet;
+    margin-bottom: 50px;
+}
+.email,.password{
+    width:400px;
+    height:37px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+.login-register,.create{
+    padding:10px 0px;
+    width:130px;
+    border-radius: 10px;
+    border:2px solid blueviolet;
+    cursor:pointer;
+}
+.login-register{
+    background-color: blueviolet;
+    color:white;
+}
+.create{
+    background-color: white;
+
+}
+
+.sidebar{
+    background-image: url('nft.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+}

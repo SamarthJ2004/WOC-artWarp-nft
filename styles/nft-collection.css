@@ -1,0 +1,80 @@
+.collection-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.collection a{cursor: pointer;}
+
+.collection-tab{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:490px;
+    width:370px;
+    border-radius: 16px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+.collection-tab:hover{transform: translateY(-5px);}
+
+
+.collection-tab1{background-image: url('images/collection-tab/gaming.jpeg');}
+.collection-tab2{background-image: url('images/collection-tab/anime.jpeg');}
+.collection-tab3{background-image: url('images/collection-tab/art.jpeg');}
+.collection-tab4{background-image: url('images/collection-tab/cars.webp');}
+.collection-tab5{background-image: url('images/collection-tab/city.jpeg');}
+.collection-tab6{background-image: url('images/collection-tab/space.gif');}
+.collection-tab7{background-image: url('images/collection-tab/landscape.jpeg');}
+.collection-tab8{background-image: url('images/collection-tab/misc.jpg');}
+
+
+.collection-tab-front{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width:100%;
+    border-radius: 16px;
+}
+.front-items{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    
+}
+.collection-logo{
+    height:86px;
+    width:86px;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.logo-back{
+    background-size: cover;
+    border-radius: 14px;
+    height:72px;
+    width:72px;
+    margin: 7px 0px 0px 7px;
+}
+.logo-back1{background-image: url('images/collection-logo-back/gaming-logo.png');}
+.logo-back2{background-image: url('images/collection-logo-back/anime-logo.jpeg');}
+.logo-back3{background-image: url('images/collection-logo-back/art-logo.jpeg');}
+.logo-back4{background-image: url('images/collection-logo-back/cars-logo.png');}
+.logo-back5{background-image: url('images/collection-logo-back/city-logo.jpeg');}
+.logo-back6{background-image: url('images/collection-logo-back/space-logo.jpeg');}
+.logo-back7{background-image: url('images/collection-logo-back/landscape-logo.jpeg');}
+.logo-back8{background-image: url('images/collection-logo-back/misc-logo.png');}
+
+
+.collection-heading{
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.64px;
+    margin-top: 30px;
+    margin-bottom: 245px;
+}

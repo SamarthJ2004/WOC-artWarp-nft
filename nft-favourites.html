@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourites</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/nft-nav.css">
+    <link rel="stylesheet" href="styles/nft-footer.css">
+    <link rel="stylesheet" href="styles/favourite.css">
+</head>
+<body>
+    <nav></nav>
+
+    <div class="fav">
+        <div>FAVOURITES</div>
+        <div class="js-count-fav">12 items</div>
+    </div>
+    
+    <div class="fav-items"></div>
+
+    <footer></footer>
+
+    <script src="javascript/homepage/renderNavbar.js"></script>
+    <script type="module">
+        import {renderFav} from './javascript/favourite.js'
+        renderFav();
+      </script>
+    <script src="javascript/homepage/renderFooter.js"></script>
+</body>
+</html>

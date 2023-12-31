@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.space-hero{ margin:75px 30px 0px 30px;}
+.space-hero-img{position: relative;}
+
+.hero_img{
+    width:100%;
+    border-radius: 20px;
+}
+.title_img{
+    position: absolute;
+    height:132px;
+    left: 30px;
+    bottom:-30px;
+    border-radius: 17px;
+}
+.space-hero-heading{
+    margin: 50px 0px 50px 10px;
+    font-size: 45px;
+    font-weight: 600;
+    font-family:fantasy;
+}

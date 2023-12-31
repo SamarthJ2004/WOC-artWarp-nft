@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+.hero{
+    background-color: white;
+    width:100%;
+}
+.hero1{
+    background-color: rgba(0,0,0,0.05);
+    padding: 134px 79px 70px 79px;
+    display:flex;
+    justify-content: center;
+}
+.hero1 img{
+    max-width: 1550px;
+    max-height:660px;
+}
+.hero-head{
+    margin: 50px;
+    padding: 15px 24px 0px 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.main-head{
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: -1.12px;
+    margin-bottom: 20px;
+}
+.sub{
+    display: flex;
+    margin-bottom: 30px;
+}
+.sub_{margin-right: 100px;}
+
+.sub1{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+.sub2{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bidding{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 25px;
+}
+.bidding button{
+    background-color: black;
+    border-radius: 24px;
+    height:48px;
+    color:white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.price_bid{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
